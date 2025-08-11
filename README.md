@@ -204,7 +204,7 @@ flowchart LR
     B2 --> B4 --> B5 --> B6
     B3 --> C1
     B6 --> C1 --> C2
-
+```
 
 ## ⚠️ Challenges
 
@@ -228,5 +228,6 @@ Future enhancements and areas for expansion include:
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
 
 
