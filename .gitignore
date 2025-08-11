@@ -1,0 +1,35 @@
+# Ignore Python cache & bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore virtual environment
+.env/
+venv/
+env/
+
+# Ignore model artifacts
+models/
+
+# Ignore datasets (optional — remove if you want to commit them)
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
