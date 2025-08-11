@@ -225,9 +225,7 @@ Future enhancements and areas for expansion include:
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
 
 
 
