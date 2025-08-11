@@ -177,6 +177,7 @@ The **Power BI dashboard** provides a comprehensive overview of the analysis wit
 * Top Aspects Driving User Satisfaction or Dissatisfaction
 
 ## 📊 Data Flow Diagram
+
 ```mermaid
 flowchart LR
     subgraph S1[Data Sources]
@@ -204,7 +205,6 @@ flowchart LR
     B3 --> C1
     B6 --> C1 --> C2
 
----
 
 ## ⚠️ Challenges
 
@@ -228,4 +228,5 @@ Future enhancements and areas for expansion include:
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
 
