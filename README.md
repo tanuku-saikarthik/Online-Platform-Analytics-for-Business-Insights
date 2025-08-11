@@ -97,6 +97,9 @@ flowchart TD
     F --> G[Export Processed Data]
     G --> H[Power BI Visualization]
     C --> G
+```
+
+---
 
 ## 📈 Results Summary
 
@@ -130,14 +133,20 @@ social-media-insights/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
+---
+
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/yourusername/social-media-insights.git
 cd social-media-insights
 pip install -r requirements.txt
+```
+
 ---
 
-### ▶️ Usage
+## ▶️ Usage
 
 To run the different components of the project, use the following commands:
 
@@ -158,7 +167,7 @@ To run the different components of the project, use the following commands:
 
 ---
 
-### 📊 Visualizations
+## 📊 Visualizations
 
 The **Power BI dashboard** provides a comprehensive overview of the analysis with the following key visualizations:
 
@@ -169,7 +178,7 @@ The **Power BI dashboard** provides a comprehensive overview of the analysis wit
 
 ---
 
-### ⚠️ Challenges
+## ⚠️ Challenges
 
 Throughout this project, we encountered a few key challenges:
 
@@ -178,7 +187,7 @@ Throughout this project, we encountered a few key challenges:
 
 ---
 
-### 🔮 Future Work
+## 🔮 Future Work
 
 Future enhancements and areas for expansion include:
 
@@ -188,6 +197,6 @@ Future enhancements and areas for expansion include:
 
 ---
 
-### 📜 License
+## 📜 License
 
 This project is licensed under the **MIT License**.
