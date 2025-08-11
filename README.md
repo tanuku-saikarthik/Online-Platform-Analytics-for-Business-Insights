@@ -176,6 +176,34 @@ The **Power BI dashboard** provides a comprehensive overview of the analysis wit
 * Positive vs Negative Sentiment %
 * Top Aspects Driving User Satisfaction or Dissatisfaction
 
+## 📊 Data Flow Diagram
+```mermaid
+flowchart LR
+    subgraph S1[Data Sources]
+        A1[Amazon Reviews Dataset - Kaggle]
+        A2[Scraped Amazon Reviews]
+        A3[Scraped Flipkart Reviews]
+    end
+
+    subgraph S2[Preprocessing & NLP Pipeline]
+        B1[Data Cleaning: remove emojis, stopwords, special chars]
+        B2[Tokenization & Lemmatization]
+        B3[Topic Modeling: LDA, BERTopic]
+        B4[Keyword Extraction: KeyBERT]
+        B5[Aspect Filtering & Mapping]
+        B6[Aspect-Based Sentiment Analysis]
+    end
+
+    subgraph S3[Output & Visualization]
+        C1[Processed CSV with sentiment scores]
+        C2[Power BI Dashboard]
+    end
+
+    S1 --> B1 --> B2 --> B3
+    B2 --> B4 --> B5 --> B6
+    B3 --> C1
+    B6 --> C1 --> C2
+
 ---
 
 ## ⚠️ Challenges
@@ -200,3 +228,4 @@ Future enhancements and areas for expansion include:
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
